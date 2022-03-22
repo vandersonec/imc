@@ -7,7 +7,7 @@ peso = parseFloat(prompt('Digite seu peso:'))
 imc = peso/((altura/100)**2)
 
 document.write(`Olá, <strong>${nome.toUpperCase()}</strong> de acordo com seu peso e sua altura seu imc estar em <strong>${imc.toFixed(2)}</strong><br>
-Situação: ${imcSituacao(imc)}`)
+Situação: ${imcSituacao(imc)} !`)
 
 function imcSituacao(imc) {
     let abaixoDoPeso = imc < 18.5
